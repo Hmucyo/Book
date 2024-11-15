@@ -1,0 +1,36 @@
+.bookListSection {
+    padding: 0 23px;
+  }
+  
+  .sectionTitle {
+    font-size: 36px;
+    font-weight: 400;
+    margin: 35px 0 0 25px;
+    font-family: 'Annapurna SIL', sans-serif;
+    color: #46383a;
+  }
+  
+  .bookListDivider {
+    width: 100%;
+    max-width: 1367px;
+    height: 1px;
+    background-color: #77583d;
+    margin: 26px auto 18px;
+  }
+  
+  .bookListContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px 52px;
+    justify-content: center;
+  }
+  
+  @media (max-width: 991px) {
+    .bookListSection {
+      padding: 0 20px;
+    }
+    
+    .sectionTitle {
+      margin-left: 10px;
+    }
+  }
