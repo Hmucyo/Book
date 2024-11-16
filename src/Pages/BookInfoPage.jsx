@@ -8,21 +8,20 @@ const BookInfoPage = () => {
           <img class="image" src="https://c.animaapp.com/zLXIMVIQ/img/image-4@2x.png" />
           <img class="img" src="https://c.animaapp.com/zLXIMVIQ/img/image-7@2x.png" />
           <div class="top-bar">
-            <div class="frame">
-              <div class="text-wrapper">19104</div>
-              <img class="location-on" src="https://c.animaapp.com/zLXIMVIQ/img/location-on.svg" />
-              <img class="polygon" src="https://c.animaapp.com/zLXIMVIQ/img/polygon-1.svg" />
-            </div>
-            <div class="frame-2">
-              <img class="search" src="https://c.animaapp.com/zLXIMVIQ/img/search.svg" />
-              <div class="text-wrapper-2">Search</div>
-            </div>
-            <img class="bookmark" src="https://c.animaapp.com/zLXIMVIQ/img/bookmark.svg" />
-            <img class="icon-comment" src="https://c.animaapp.com/zLXIMVIQ/img/---icon--comment-@2x.png" />
-            <img class="group" src="https://c.animaapp.com/zLXIMVIQ/img/group-27@2x.png" />
-            <img class="account-circle" src="https://c.animaapp.com/zLXIMVIQ/img/account-circle.svg" />
-            
-            <Link to="/home">
+          <div class="location-frame">
+            <img class="location-icon" src="https://c.animaapp.com/nm4Y9Hwe/img/location-on.svg" />
+            <input class="zip-code-box" type="number" pattern="[0-9]{5}" inputMode="numeric" maxLength="5" defaultValue="19104" />
+          </div>
+          <div class="search-frame">
+            <img class="search-icon" src="https://c.animaapp.com/nm4Y9Hwe/img/search.svg" />
+            <input class="search-box" type="text" placeholder="Search" />
+          </div>
+          <img class="bookmark" src="https://c.animaapp.com/nm4Y9Hwe/img/bookmark.svg" />
+          <Link to="/chat">
+            <img class="icon-comment" src="https://c.animaapp.com/nm4Y9Hwe/img/---icon--comment-@2x.png" />
+          </Link>          <img class="group" src="https://c.animaapp.com/nm4Y9Hwe/img/group-27@2x.png" />
+          <img class="account-circle" src="https://c.animaapp.com/nm4Y9Hwe/img/account-circle.svg" />
+          <Link to="/">
               <img class="logo" src="https://c.animaapp.com/zLXIMVIQ/img/image-9@2x.png" />
             </Link>
           </div>
@@ -52,7 +51,9 @@ const BookInfoPage = () => {
             visualizations. Overall, it’s in good condition with all pages intact. The spine is slightly worn down, but
             the pages don’t have any markings.
           </p>
+          <Link to="/">
           <img class="vector-2" src="https://c.animaapp.com/zLXIMVIQ/img/vector-3.svg" />
+            </Link>
           <div class="text-wrapper-12">More From This User</div>
           <div class="frame-wrapper">
             <div class="frame-4">

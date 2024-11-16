@@ -34,10 +34,14 @@ function HomePage() {
             <input class="search-box" type="text" placeholder="Search" />
           </div>
           <img class="bookmark" src="https://c.animaapp.com/nm4Y9Hwe/img/bookmark.svg" />
-          <img class="icon-comment" src="https://c.animaapp.com/nm4Y9Hwe/img/---icon--comment-@2x.png" />
+          <Link to="/chat">
+            <img class="icon-comment" src="https://c.animaapp.com/nm4Y9Hwe/img/---icon--comment-@2x.png" />
+          </Link>
           <img class="group" src="https://c.animaapp.com/nm4Y9Hwe/img/group-27@2x.png" />
           <img class="account-circle" src="https://c.animaapp.com/nm4Y9Hwe/img/account-circle.svg" />
-          <img class="image" src="https://c.animaapp.com/nm4Y9Hwe/img/image-9@2x.png" />
+          <Link to="/home">
+              <img class="logo" src="https://c.animaapp.com/zLXIMVIQ/img/image-9@2x.png" />
+          </Link>
         </div>
         <div class="radius-frame">
           <div class="radius-box-frame">
@@ -77,7 +81,7 @@ function HomePage() {
         <div class="frame-6">
           <div class="frame-7">
           <Link to="/info">
-            <img class="frame-8" src="/images/TheNatureofCode.png" alt="Information Is Beautiful" />
+            <img class="book-1" src="/images/TheNatureofCode.png" alt="The Nature of Code" />
           </Link>
             <div class="overlap-group">
               <p class="p">
@@ -87,17 +91,19 @@ function HomePage() {
               <div class="text-wrapper-8">Daniel Shiffman</div>
             </div>
           </div>
-          <div class="frame-9">
+          <div class="frame-9 x">
             <div class="overlap-2">
               <div class="text-wrapper-9">Information is Beautiful</div>
               <div class="text-wrapper-8">David McCandless</div>
             </div>
-            <div class="frame-10">
-            <img class="book-2" src="/Users/manzihuguesmucyo/Documents/Academics/Book Swap/book/src/images/InformationisBeautiful.png" />
-            </div>
+            <Link to="/info">
+              <img class="book-2" src="/images/InformationisBeautiful.png" alt="Information Is Beautiful" />
+             </Link>
           </div>
           <div class="frame-9">
-            <div class="frame-11"></div>
+          <Link to="/info">
+              <img class="book-3" src="/images/Still.png" alt="STILL: The Art of Noticing" />
+             </Link>
             <p class="div-2">
               <span class="span">STILL: The Art of Noticing</span> <span class="text-wrapper-7">&nbsp;</span>
             </p>
@@ -108,10 +114,14 @@ function HomePage() {
               <div class="text-wrapper-9">Accidentally Wes Anderson</div>
               <div class="text-wrapper-8">Wally Koval</div>
             </div>
-            <div class="frame-13"></div>
+            <Link to="/info">
+              <img class="book-4" src="/images/AccidentallyWesAnderson.png" alt="Accidentally Wes Anderson" />
+             </Link>
           </div>
           <div class="frame-14">
-            <div class="frame-15"></div>
+          <Link to="/info">
+              <img class="book-5" src="/images/WorldofArt.png" alt="World of Art" />
+             </Link>
             <p class="div-2">
               <span class="span">World of Art <br /></span>
               <span class="text-wrapper-7">The Photograph as Contemporary Art</span>
@@ -126,7 +136,9 @@ function HomePage() {
               </p>
               <div class="text-wrapper-8">Gayle Laakmann McDowell</div>
             </div>
-            <div class="frame-16"></div>
+            <Link to="/info">
+              <img class="book-6" src="/images/CrackingtheCodingInterview.png" alt="Cracking the Coding Interview" />
+             </Link>
           </div>
         </div>
         <img class="frame-17" src="https://c.animaapp.com/nm4Y9Hwe/img/frame-30.svg" />
@@ -140,17 +152,23 @@ function HomePage() {
               </p>
               <div class="text-wrapper-8">Gayle Laakmann McDowell</div>
             </div>
-            <div class="frame-19"></div>
+            <Link to="/info">
+              <img class="frame-19" src="/images/CrackingtheCodingInterview.png" alt="Cracking the Coding Interview" />
+             </Link>
           </div>
           <div class="frame-12">
             <div class="overlap-2">
               <div class="text-wrapper-9">Accidentally Wes Anderson</div>
               <div class="text-wrapper-8">Wally Koval</div>
             </div>
-            <div class="frame-20"></div>
+            <Link to="/info">
+              <img class="frame-20" src="/images/AccidentallyWesAnderson.png" alt="Accidentally Wes Anderson" />
+             </Link>
           </div>
           <div class="frame-9">
-            <div class="frame-21"></div>
+          <Link to="/info">
+              <img class="frame-21" src="/images/TheNatureofCode.png" alt="The Nature of Code" />
+             </Link>
             <p class="div-2">
               <span class="span">The Nature of Code</span>
               <span class="text-wrapper-7"> Simulating Natural Systems with Javascript</span>
@@ -158,7 +176,9 @@ function HomePage() {
             <div class="text-wrapper-10">Daniel Shiffman</div>
           </div>
           <div class="frame-14">
-            <div class="frame-22"></div>
+          <Link to="/info">
+              <img class="frame-22" src="/images/WorldofArt.png" alt="World of Art" />
+             </Link>
             <p class="div-2">
               <span class="span">World of Art <br /></span>
               <span class="text-wrapper-7">The Photograph as Contemporary Art</span>
@@ -166,7 +186,9 @@ function HomePage() {
             <div class="text-wrapper-10">Charlotte Cotton</div>
           </div>
           <div class="frame-9">
-            <div class="frame-23"></div>
+          <Link to="/info">
+              <img class="frame-23" src="/images/Still.png" alt="Still" />
+             </Link>
             <p class="div-2">
               <span class="span">STILL: The Art of Noticing</span> <span class="text-wrapper-7">&nbsp;</span>
             </p>
@@ -177,7 +199,9 @@ function HomePage() {
               <div class="text-wrapper-9">Information is Beautiful</div>
               <div class="text-wrapper-8">David McCandless</div>
             </div>
-            <div class="frame-24"></div>
+            <Link to="/info">
+              <img class="frame-24" src="/images/InformationisBeautiful.png" alt="Information is Beautiful" />
+             </Link>
           </div>
         </div>
         <img class="frame-25" src="https://c.animaapp.com/nm4Y9Hwe/img/frame-39.svg" />

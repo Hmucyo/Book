@@ -135,7 +135,7 @@
   left: 1360px;
 }
 
-.landing-page .image {
+.landing-page .logo {
   position: absolute;
   width: 241px;
   height: 90px;
@@ -337,7 +337,7 @@
   height: 274.16px;
 }
 
-.landing-page .frame-8 {
+.landing-page .book-1 {
   position: absolute;
   width: 160px;
   height: 212px;
@@ -432,7 +432,7 @@
   -webkit-box-orient: vertical;
 }
 
-.landing-page .frame-10 {
+.landing-page .book-2 {
   position: absolute;
   width: 160px;
   height: 212px;
@@ -455,7 +455,7 @@
   background-position: 50% 50%;
 }
 
-.landing-page .frame-11 {
+.landing-page .book-3 {
   position: absolute;
   width: 160px;
   height: 212px;
@@ -508,7 +508,7 @@
   height: 274.16px;
 }
 
-.landing-page .frame-13 {
+.landing-page .book-4 {
   position: absolute;
   width: 160px;
   height: 212px;
@@ -526,7 +526,7 @@
   height: 274.16px;
 }
 
-.landing-page .frame-15 {
+.landing-page .book-5 {
   position: absolute;
   width: 160px;
   height: 212px;
@@ -538,7 +538,7 @@
   background-position: 50% 50%;
 }
 
-.landing-page .frame-16 {
+.landing-page .book-6 {
   position: absolute;
   width: 160px;
   height: 212px;
@@ -710,6 +710,128 @@
     background-color: #765734;
   }
   
+  .book-information .location-frame {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    
+    position: absolute;
+    width: 160px;
+    height: 58px;
+    top: 13px;
+    left: 275px;
+    background-color: #faf8f6;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .book-information .zip-code-box {
+    position: relative;
+    height: 50px;
+    width: 80px;
+    font-family: "Annapurna SIL-Regular", Helvetica;
+    font-weight: 400;
+    color: #463839;
+    font-size: 24px;
+    border: #faf8f6;
+    background-color: #faf8f6;;
+    letter-spacing: 0;
+    left: 0px;
+    line-height: normal;
+  }
+  
+  .book-information .location-icon {
+    position: relative;
+    width: 37px;
+    height: 37px;
+  }
+  
+  .book-information .polygon {
+    position: absolute;
+    width: 21px;
+    height: 12px;
+    top: 22px;
+    left: 120px;
+  }
+  
+  .book-information .search-frame {
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    width: 677px;
+    height: 58px;
+    top: 13px;
+    left: 457px;
+    background-color: #faf8f6;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .book-information .search-icon {
+    position: relative;
+    width: 25px;
+    height: 25px;
+    
+  }
+  
+  .book-information .search-box {
+    position: relative;
+    width: 600px;
+    font-family: "Annapurna SIL-Regular", Helvetica;
+    font-weight: 400;
+    color: #2e241a80;
+    background-color: #faf8f6;
+    border: #faf8f6;;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .book-information .bookmark {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    top: 15px;
+    left: 1163px;
+  }
+  
+  .book-information .icon-comment {
+    position: absolute;
+    width: 39px;
+    height: 37px;
+    top: 24px;
+    left: 1240px;
+  }
+  
+  .book-information .group {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 22px;
+    left: 1306px;
+  }
+  
+  .book-information .account-circle {
+    position: absolute;
+    width: 61px;
+    height: 61px;
+    top: 12px;
+    left: 1360px;
+  }
+  
+  /* .book-information .top-bar {
+    position: absolute;
+  width: 1440px;
+  height: 90px;
+  top: 0;
+  left: 0;
+  background-color: #765734;
+  }
+  
   .book-information .frame {
     position: absolute;
     width: 155px;
@@ -810,7 +932,7 @@
     height: 61px;
     top: 12px;
     left: 1360px;
-  }
+  } */
   
   .book-information .logo {
     width: 241px;
@@ -1234,3 +1356,259 @@
     height: 274.16px;
   }
   
+
+  /* Chat page */
+  .chat .top-bar {
+    position: absolute;
+    width: 1440px;
+    height: 90px;
+    top: 0;
+    left: 0;
+    background-color: #765734;
+  }
+  
+  .chat .location-frame {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    
+    position: absolute;
+    width: 160px;
+    height: 58px;
+    top: 13px;
+    left: 275px;
+    background-color: #faf8f6;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .chat .zip-code-box {
+    position: relative;
+    height: 50px;
+    width: 80px;
+    font-family: "Annapurna SIL-Regular", Helvetica;
+    font-weight: 400;
+    color: #463839;
+    font-size: 24px;
+    border: #faf8f6;
+    background-color: #faf8f6;;
+    letter-spacing: 0;
+    left: 0px;
+    line-height: normal;
+  }
+  
+  .chat .location-icon {
+    position: relative;
+    width: 37px;
+    height: 37px;
+  }
+  
+  .chat .polygon {
+    position: absolute;
+    width: 21px;
+    height: 12px;
+    top: 22px;
+    left: 120px;
+  }
+  
+  .chat .search-frame {
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    width: 677px;
+    height: 58px;
+    top: 13px;
+    left: 457px;
+    background-color: #faf8f6;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .chat .search-icon {
+    position: relative;
+    width: 25px;
+    height: 25px;
+    
+  }
+  
+  .chat .search-box {
+    position: relative;
+    width: 600px;
+    font-family: "Annapurna SIL-Regular", Helvetica;
+    font-weight: 400;
+    color: #2e241a80;
+    background-color: #faf8f6;
+    border: #faf8f6;;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .chat .bookmark {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    top: 15px;
+    left: 1163px;
+  }
+  
+  .chat .icon-comment {
+    position: absolute;
+    width: 39px;
+    height: 37px;
+    top: 24px;
+    left: 1240px;
+  }
+  
+  .chat .group {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 22px;
+    left: 1306px;
+  }
+  
+  .chat .account-circle {
+    position: absolute;
+    width: 61px;
+    height: 61px;
+    top: 12px;
+    left: 1360px;
+  }
+  .chat .logo {
+    width: 241px;
+    height: 90px;
+    top: 0;
+    left: 22px;
+    position: absolute;
+    object-fit: cover;
+  }
+
+  /* .container {
+    background-color: rgba(0, 0, 0, 0.25);
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding: 399px 54px 25px;
+  }
+  
+  @media (max-width: 991px) {
+    .container {
+      max-width: 100%;
+      padding: 100px 20px 0;
+    }
+  }
+  
+  .buttonGroup {
+    align-self: center;
+    display: flex;
+    width: 383px;
+    max-width: 100%;
+    align-items: flex-end;
+    gap: 21px 23px;
+    font-size: 36px;
+    color: rgba(70, 56, 57, 1);
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+  
+  .button {
+    align-self: stretch;
+    border-radius: 5px;
+    background-color: #fff;
+    min-width: 240px;
+    gap: 10px;
+    overflow: hidden;
+    padding: 4px 48px;
+  }
+  
+  @media (max-width: 991px) {
+    .button {
+      padding: 0 20px;
+    }
+  }
+  
+  .buttonText {
+    display: flex;
+    align-items: flex-start;
+    white-space: nowrap;
+    justify-content: flex-start;
+    flex-grow: 1;
+    width: 144px;
+  }
+  
+  @media (max-width: 991px) {
+    .buttonText {
+      white-space: initial;
+    }
+  }
+  
+  .messageContainer {
+    display: flex;
+    margin-top: 313px;
+    gap: 18px;
+    font-size: 24px;
+    color: rgba(46, 36, 26, 0.5);
+    flex-wrap: wrap;
+  }
+  
+  @media (max-width: 991px) {
+    .messageContainer {
+      margin-top: 40px;
+    }
+  }
+  
+  .messageInput {
+    border-radius: 5px;
+    background-color: #faf8f6;
+    display: flex;
+    gap: 16px;
+    overflow: hidden;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-basis: auto;
+    padding: 9px 7px;
+  }
+  
+  .messageIcon {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 41px;
+  }
+  
+  .messageText {
+    flex-basis: auto;
+    flex-grow: 1;
+    margin: auto 0;
+  }
+  
+  @media (max-width: 991px) {
+    .messageText {
+      max-width: 100%;
+    }
+  }
+  
+  .sendIcon {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 58px;
+    border-radius: 5px;
+  }
+  
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  } */
