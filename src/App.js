@@ -4,7 +4,9 @@ import React from 'react';
 import HomePage from './Pages/HomePage';
 import {BrowserRouter as Router,Routes, Route} from 'react-router-dom';
 import BookInfoPage from './Pages/BookInfoPage';
-import Chat from './Pages/Chat';
+import ChatPage from './Pages/ChatPage';
+import './index.css';
+
 
 function App() {
   return (
@@ -13,7 +15,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/info" element={<BookInfoPage />} />
-          <Route path="/chat" element={<Chat />} />
+          <Route path="/chat" element={<ChatPage />} />
         </Routes>
       </Router>
     </div>

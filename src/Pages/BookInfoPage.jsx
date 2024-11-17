@@ -1,5 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
+import TopBar from '../Components/TopBar';  
 
 const BookInfoPage = () => {
     return (
@@ -7,28 +8,15 @@ const BookInfoPage = () => {
         <div class="div">
           <img class="image" src="https://c.animaapp.com/zLXIMVIQ/img/image-4@2x.png" />
           <img class="img" src="https://c.animaapp.com/zLXIMVIQ/img/image-7@2x.png" />
-          <div class="top-bar">
-          <div class="location-frame">
-            <img class="location-icon" src="https://c.animaapp.com/nm4Y9Hwe/img/location-on.svg" />
-            <input class="zip-code-box" type="number" pattern="[0-9]{5}" inputMode="numeric" maxLength="5" defaultValue="19104" />
-          </div>
-          <div class="search-frame">
-            <img class="search-icon" src="https://c.animaapp.com/nm4Y9Hwe/img/search.svg" />
-            <input class="search-box" type="text" placeholder="Search" />
-          </div>
-          <img class="bookmark" src="https://c.animaapp.com/nm4Y9Hwe/img/bookmark.svg" />
-          <Link to="/chat">
-            <img class="icon-comment" src="https://c.animaapp.com/nm4Y9Hwe/img/---icon--comment-@2x.png" />
-          </Link>          <img class="group" src="https://c.animaapp.com/nm4Y9Hwe/img/group-27@2x.png" />
-          <img class="account-circle" src="https://c.animaapp.com/nm4Y9Hwe/img/account-circle.svg" />
-          <Link to="/">
-              <img class="logo" src="https://c.animaapp.com/zLXIMVIQ/img/image-9@2x.png" />
-            </Link>
-          </div>
+          <TopBar />
           <img class="bookmark-2" src="https://c.animaapp.com/zLXIMVIQ/img/bookmark-1.svg" />
           <img class="image-3" src="https://c.animaapp.com/zLXIMVIQ/img/image-5@2x.png" />
           <img class="image-4" src="https://c.animaapp.com/zLXIMVIQ/img/image-6@2x.png" />
-          <div class="div-wrapper"><div class="text-wrapper-3">Request Book</div></div>
+          <Link to="/chat" style={{ textDecoration: "none" }}>
+            <div className="div-wrapper">
+              <div className="text-wrapper-3">Request Book</div>
+            </div>
+          </Link>
           <div class="frame-3"><div class="text-wrapper-4">Send Message to Owner</div></div>
           <div class="overlap">
             <div class="text-wrapper-5">Information is Beautiful</div> 

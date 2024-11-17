@@ -13,137 +13,6 @@
   position: relative;
 }
 
-.landing-page .top-bar {
-  position: absolute;
-  width: 1440px;
-  height: 90px;
-  top: 0;
-  left: 0;
-  background-color: #765734;
-}
-
-.landing-page .location-frame {
-  align-items: center;
-  display: flex;
-  flex-direction: row;
-  
-  position: absolute;
-  width: 160px;
-  height: 58px;
-  top: 13px;
-  left: 275px;
-  background-color: #faf8f6;
-  border-radius: 5px;
-  overflow: hidden;
-}
-
-.landing-page .zip-code-box {
-  position: relative;
-  height: 50px;
-  width: 80px;
-  font-family: "Annapurna SIL-Regular", Helvetica;
-  font-weight: 400;
-  color: #463839;
-  font-size: 24px;
-  border: #faf8f6;
-  background-color: #faf8f6;;
-  letter-spacing: 0;
-  left: 0px;
-  line-height: normal;
-}
-
-.landing-page .location-icon {
-  position: relative;
-  width: 37px;
-  height: 37px;
-}
-
-.landing-page .polygon {
-  position: absolute;
-  width: 21px;
-  height: 12px;
-  top: 22px;
-  left: 120px;
-}
-
-.landing-page .search-frame {
-  position: absolute;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  display: flex;
-  flex-direction: row;
-  /* justify-content: center; */
-  width: 677px;
-  height: 58px;
-  top: 13px;
-  left: 457px;
-  background-color: #faf8f6;
-  border-radius: 5px;
-  overflow: hidden;
-}
-
-.landing-page .search-icon {
-  position: relative;
-  width: 25px;
-  height: 25px;
-  
-}
-
-.landing-page .search-box {
-  position: relative;
-  width: 600px;
-  font-family: "Annapurna SIL-Regular", Helvetica;
-  font-weight: 400;
-  color: #2e241a80;
-  background-color: #faf8f6;
-  border: #faf8f6;;
-  font-size: 24px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.landing-page .bookmark {
-  position: absolute;
-  width: 55px;
-  height: 55px;
-  top: 15px;
-  left: 1163px;
-}
-
-.landing-page .icon-comment {
-  position: absolute;
-  width: 39px;
-  height: 37px;
-  top: 24px;
-  left: 1240px;
-}
-
-.landing-page .group {
-  position: absolute;
-  width: 40px;
-  height: 40px;
-  top: 22px;
-  left: 1306px;
-}
-
-.landing-page .account-circle {
-  position: absolute;
-  width: 61px;
-  height: 61px;
-  top: 12px;
-  left: 1360px;
-}
-
-.landing-page .logo {
-  position: absolute;
-  width: 241px;
-  height: 90px;
-  top: 0;
-  left: 22px;
-  object-fit: cover;
-}
-
 .landing-page .radius-frame {
   display: inline-flex;
   flex-direction: column;
@@ -181,7 +50,6 @@
   position: relative;
   width: fit-content;
   margin-top: -1.00px;
-  font-family: "Annapurna SIL-Regular", Helvetica;
   font-weight: 400;
   color: #463839;
   font-size: 24px;
@@ -194,20 +62,21 @@
   justify-content: center;
   width: 40px;
   height: 20px;
-  font-family: "Annapurna SIL-Regular", Helvetica;
   font-weight: 400;
-  border: #faf8f6;
-  color: #463839;
+  border: none; /* Remove border */
+  background-color: transparent; /* Make the background transparent */
+  color: #463839; /* Ensure text is visible */
   font-size: 24px;
   letter-spacing: 0;
+  outline: none; /* Remove focus outline */
 }
+
 .landing-page .unit-radius {
   position: relative;
   justify-content: top;
 
   width: 5px;
   height: 12px;
-  font-family: "Annapurna SIL-Regular", Helvetica;
   font-weight: 400;
   color: #463839;
   font-size: 24px;
@@ -233,7 +102,6 @@
 
 .landing-page .text-wrapper-4 {
   position: relative;
-  font-family: "Annapurna SIL-Regular", Helvetica;
   font-weight: 400;
   color: #463839;
   font-size: 24px;
@@ -246,7 +114,6 @@
   width: 171px;
   height: 50px;
   position: relative;
-  font-family: "Annapurna SIL-Regular", Helvetica;
   font-weight: 400;
   color: #463839;
   font-size: 24px;
@@ -275,7 +142,6 @@
   position: relative;
   width: 180px;
   height: 58px;
-  font-family: "Annapurna SIL-Regular", Helvetica;
   border-color: white;
   font-weight: 400;
   color: #463839;
@@ -305,7 +171,6 @@
   width: 184px;
   top: 0;
   left: 11px;
-  font-family: "Annapurna SIL-Regular", Helvetica;
   font-weight: 400;
   color: #463839;
   font-size: 36px;
@@ -362,7 +227,6 @@
   width: 160px;
   top: 0;
   left: 0;
-  font-family: "Annapurna SIL-Bold", Helvetica;
   font-weight: 400;
   color: #463839;
   font-size: 18px;
@@ -380,14 +244,13 @@
 }
 
 .landing-page .text-wrapper-7 {
-  font-family: "Annapurna SIL-Regular", Helvetica;
+  top: 55px;
 }
 
 .landing-page .text-wrapper-8 {
   position: absolute;
   top: 61px;
   left: 0;
-  font-family: "Annapurna SIL-Regular", Helvetica;
   font-weight: 400;
   color: #463839;
   font-size: 14px;
@@ -419,7 +282,6 @@
   width: 160px;
   top: 0;
   left: 0;
-  font-family: "Annapurna SIL-Bold", Helvetica;
   font-weight: 700;
   color: #463839;
   font-size: 18px;
@@ -470,9 +332,8 @@
 .landing-page .div-2 {
   position: absolute;
   width: 160px;
-  top: 230px;
+  top: 220px;
   left: 0;
-  font-family: "Annapurna SIL-Bold", Helvetica;
   font-weight: 400;
   color: #463839;
   font-size: 18px;
@@ -489,7 +350,6 @@
   position: absolute;
   top: 291px;
   left: 0;
-  font-family: "Annapurna SIL-Regular", Helvetica;
   font-weight: 400;
   color: #463839;
   font-size: 14px;
@@ -562,7 +422,6 @@
   position: absolute;
   top: 604px;
   left: 48px;
-  font-family: "Annapurna SIL-Regular", Helvetica;
   font-weight: 400;
   color: #463839;
   font-size: 36px;
@@ -701,128 +560,7 @@
     object-fit: cover;
   }
   
-  .book-information .top-bar {
-    position: absolute;
-    width: 1440px;
-    height: 90px;
-    top: 0;
-    left: 0;
-    background-color: #765734;
-  }
-  
-  .book-information .location-frame {
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    
-    position: absolute;
-    width: 160px;
-    height: 58px;
-    top: 13px;
-    left: 275px;
-    background-color: #faf8f6;
-    border-radius: 5px;
-    overflow: hidden;
-  }
-  
-  .book-information .zip-code-box {
-    position: relative;
-    height: 50px;
-    width: 80px;
-    font-family: "Annapurna SIL-Regular", Helvetica;
-    font-weight: 400;
-    color: #463839;
-    font-size: 24px;
-    border: #faf8f6;
-    background-color: #faf8f6;;
-    letter-spacing: 0;
-    left: 0px;
-    line-height: normal;
-  }
-  
-  .book-information .location-icon {
-    position: relative;
-    width: 37px;
-    height: 37px;
-  }
-  
-  .book-information .polygon {
-    position: absolute;
-    width: 21px;
-    height: 12px;
-    top: 22px;
-    left: 120px;
-  }
-  
-  .book-information .search-frame {
-    position: absolute;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    display: flex;
-    flex-direction: row;
-    /* justify-content: center; */
-    width: 677px;
-    height: 58px;
-    top: 13px;
-    left: 457px;
-    background-color: #faf8f6;
-    border-radius: 5px;
-    overflow: hidden;
-  }
-  
-  .book-information .search-icon {
-    position: relative;
-    width: 25px;
-    height: 25px;
-    
-  }
-  
-  .book-information .search-box {
-    position: relative;
-    width: 600px;
-    font-family: "Annapurna SIL-Regular", Helvetica;
-    font-weight: 400;
-    color: #2e241a80;
-    background-color: #faf8f6;
-    border: #faf8f6;;
-    font-size: 24px;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .book-information .bookmark {
-    position: absolute;
-    width: 55px;
-    height: 55px;
-    top: 15px;
-    left: 1163px;
-  }
-  
-  .book-information .icon-comment {
-    position: absolute;
-    width: 39px;
-    height: 37px;
-    top: 24px;
-    left: 1240px;
-  }
-  
-  .book-information .group {
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    top: 22px;
-    left: 1306px;
-  }
-  
-  .book-information .account-circle {
-    position: absolute;
-    width: 61px;
-    height: 61px;
-    top: 12px;
-    left: 1360px;
-  }
-  
+
   /* .book-information .top-bar {
     position: absolute;
   width: 1440px;
@@ -934,15 +672,6 @@
     left: 1360px;
   } */
   
-  .book-information .logo {
-    width: 241px;
-    height: 90px;
-    top: 0;
-    left: 22px;
-    position: absolute;
-    object-fit: cover;
-  }
-  
   .book-information .vector {
     position: absolute;
     width: 45px;
@@ -992,7 +721,6 @@
     position: absolute;
     top: 2px;
     left: 137px;
-    font-family: "Annapurna SIL-Regular", Helvetica;
     font-weight: 400;
     color: #faf7f6;
     font-size: 36px;
@@ -1017,7 +745,6 @@
     position: absolute;
     top: 0;
     left: 62px;
-    font-family: "Annapurna SIL-Regular", Helvetica;
     font-weight: 400;
     color: #463839;
     font-size: 36px;
@@ -1038,7 +765,6 @@
     position: relative;
     top: 0;
     left: 0;
-    font-family: "Annapurna SIL-Bold", Helvetica;
     font-weight: 700;
     color: #463839;
     font-size: 36px;
@@ -1049,7 +775,6 @@
   
   .book-information .text-wrapper-6 {
     position: relative;
-    font-family: "Annapurna SIL-Regular", Helvetica;
     font-weight: 400;
     color: #463839;
     font-size: 24px;
@@ -1085,7 +810,6 @@
     position: relative;
     top: 250px;
     left: 839px;
-    font-family: "Annapurna SIL-Regular", Helvetica;
     font-weight: 400;
     color: #2e241a80;
     font-size: 24px;
@@ -1095,9 +819,8 @@
   
   .book-information .text-wrapper-8 {
     position: relative;
-    top: 681px;
+    top: 620px;
     left: 170px;
-    font-family: "Annapurna SIL-Regular", Helvetica;
     font-weight: 400;
     color: #463839;
     font-size: 36px;
@@ -1110,7 +833,6 @@
     position: relative;
     justify-content: space-between;
     flex-direction: row;
-    font-family: "Annapurna SIL-Regular", Helvetica;
     font-weight: 400;
     color: #463839;
     letter-spacing: 0;
@@ -1119,7 +841,6 @@
   
   .book-information .student-university {
     position: relative;
-    font-family: "Annapurna SIL-Regular", Helvetica;
     font-weight: 400;
     color: #463839;
     font-size: 24px;
@@ -1132,7 +853,6 @@
     width: 563px;
     top: 734px;
     left: 171px;
-    font-family: "Annapurna SIL-Regular", Helvetica;
     font-weight: 400;
     color: #463839;
     font-size: 24px;
@@ -1144,7 +864,6 @@
     position: absolute;
     top: 680px;
     left: 796px;
-    font-family: "Annapurna SIL-Regular", Helvetica;
     font-weight: 400;
     color: #463839;
     font-size: 36px;
@@ -1157,7 +876,6 @@
     width: 548px;
     top: 733px;
     left: 797px;
-    font-family: "Annapurna SIL-Regular", Helvetica;
     font-weight: 400;
     color: #463839;
     font-size: 24px;
@@ -1177,7 +895,6 @@
     position: absolute;
     top: 933px;
     left: 195px;
-    font-family: "Annapurna SIL-Regular", Helvetica;
     font-weight: 400;
     color: #463839;
     font-size: 36px;
@@ -1239,7 +956,6 @@
     position: absolute;
     width: 160px;
     left: 0;
-    font-family: "Annapurna SIL-Bold", Helvetica;
     font-weight: 400;
     color: #463839;
     font-size: 18px;
@@ -1257,7 +973,6 @@
   }
   
   .book-information .text-wrapper-13 {
-    font-family: "Annapurna SIL-Regular", Helvetica;
   }
   
   .book-information .text-wrapper-14 {
@@ -1270,7 +985,6 @@
     -webkit-line-clamp: 1;
     -webkit-box-orient: vertical;
     position: absolute;
-    font-family: "Annapurna SIL-Regular", Helvetica;
     font-weight: 400;
     color: #463839;
     letter-spacing: 0;
@@ -1288,7 +1002,6 @@
     position: absolute;
     width: 160px;
     left: 0;
-    font-family: "Annapurna SIL-Bold", Helvetica;
     font-weight: 400;
     color: #463839;
     font-size: 18px;
@@ -1305,7 +1018,6 @@
     position: absolute;
     top: 291px;
     left: 0;
-    font-family: "Annapurna SIL-Regular", Helvetica;
     font-weight: 400;
     color: #463839;
     font-size: 14px;
@@ -1337,7 +1049,6 @@
     width: 160px;
     top: 0;
     left: 0;
-    font-family: "Annapurna SIL-Bold", Helvetica;
     font-weight: 700;
     color: #463839;
     font-size: 18px;
@@ -1386,7 +1097,6 @@
     position: relative;
     height: 50px;
     width: 80px;
-    font-family: "Annapurna SIL-Regular", Helvetica;
     font-weight: 400;
     color: #463839;
     font-size: 24px;
@@ -1438,7 +1148,6 @@
   .chat .search-box {
     position: relative;
     width: 600px;
-    font-family: "Annapurna SIL-Regular", Helvetica;
     font-weight: 400;
     color: #2e241a80;
     background-color: #faf8f6;

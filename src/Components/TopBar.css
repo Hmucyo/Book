@@ -1,0 +1,94 @@
+/* General TopBar Styling */
+.top-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0;
+  height: 60px; /* Set uniform height */
+  background-color: #765734;
+  width: 100%; /* Full width */
+  box-sizing: border-box;
+}
+
+/* Left Section: Logo, Location, and Search */
+.top-bar-left {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Equal spacing between elements */
+  flex: 1; /* Ensure the left section uses available space */
+}
+
+/* Logo */
+.top-bar .logo {
+  height: 65px;
+  object-fit: contain;
+}
+
+/* Location Frame */
+.location-frame {
+  display: flex;
+  align-items: center;
+  background-color: #faf8f6;
+  border-radius: 5px;
+  padding: 5px 10px;
+  gap: 10px; /* Gap between icon and input */
+  height: 40px; /* Uniform height */
+}
+
+.location-icon {
+  height: 80%; /* Same height as the location frame */
+}
+
+.zip-code-box {
+  width: 80px;
+  height: 100%;
+  font-size: 16px;
+  color: #463839;
+  border: none;
+  background-color: #faf8f6;
+  text-align: center;
+}
+
+/* Search Frame */
+.search-frame {
+  display: flex;
+  align-items: center;
+  background-color: #faf8f6;
+  border-radius: 5px;
+  padding: 5px 10px;
+  gap: 10px; /* Gap between search icon and input */
+  height: 40px; /* Uniform height */
+  flex: 1; /* Allow the search frame to grow */
+  max-width: 500px; /* Set a reasonable maximum width */
+}
+
+.search-icon {
+  height: 80%; /* Same height as the search frame */
+}
+
+.search-box {
+  flex: 1; /* Make the input fill available space */
+  border: none;
+  background-color: #faf8f6;
+  font-size: 16px;
+  color: #2e241a80;
+}
+
+/* Right Section: Icons */
+.icons-container {
+  display: flex;
+  align-items: center; /* Align items vertically */
+  justify-content: flex-end; /* Align items horizontally */
+  gap: 15px; /* Equal spacing between icons */
+  padding-right: 10px; /* Add some spacing on the right */
+}
+
+.icon {
+  width: 40px; /* Uniform width for all icons */
+  height: 40px; /* Uniform height for all icons */
+  font-size: 24px; /* Set font size for icons */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  display: flex;
+  align-items: center; /* Center content vertically inside icon */
+  justify-content: center; /* Center content horizontally inside icon */
+}

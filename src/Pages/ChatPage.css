@@ -1,0 +1,24 @@
+.chat-page {
+  display: flex;
+  flex-direction: column; /* Stack TopBar above the content */
+  height: 100vh;
+}
+
+.chat-content {
+  display: flex;
+  flex: 1; /* Ensures the content takes the remaining space */
+  overflow: hidden;
+}
+
+.sidebar {
+  width: 25%;
+  background-color: #f8f3eb;
+  border-right: 1px solid #d9c8b8;
+}
+
+.chat-window {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: #f9f4eb;
+}
